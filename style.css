@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image:  url(https://webneel.com/wallpaper/sites/default/files/images/08-2014/1-black-wallpaper-pattern.jpg) ;
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(2, 2, 255);
+}
+.div_one{
+    text-align: center;
+}
+.btn_1,.btn_2{
+    background-color: gray;
+    border: 1px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.div_two{
+    padding: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    list-style: none;
+}
+.input_box{
+    padding: 5px 80px 5px 10px;
+    margin: 7px;
+    border: 1px;
+    border-radius: 4px;
+}
+.list_items{
+    margin: 0px 70px 0px 70px;
+    text-decoration: none!important;
+}
+.delete_btn{
+    border: 1px;
+    margin: 5px;
+    border-radius: 2px;
+    background-color: indigo;
+}
+.edit_btn{
+    margin: 0% 5px 0% 24%!important;
+    border: 1px;
+    border-radius: 2px;
+    background-color: khaki;
+    margin: 8px;
+}

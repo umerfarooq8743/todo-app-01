@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>To-Do Application</h1>
+    <div class="div_one">
+        <input class="input_box" type="text" placeholder="Enter To-Do" value="" id="todo-item">
+        <button class="btn_1" onclick="addTodo()"> Add items</button>
+        <button class="btn_2" onclick="deleteall()"> Delete All</button>
+    </div>
+    <div class="div_two">
+        <li class="list_items" id="list">
+        </li>
+    </div>
+</body>
+  <script src="app.js"></script>
+</html>
